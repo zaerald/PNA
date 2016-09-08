@@ -50,6 +50,7 @@ Public Class dlgContact
                             "', street='" & txtSt.Text & "', city='" & txtCity.Text & "' WHERE id=" & frmPNA.selectedID
                 End Select
 
+
                 cmd.ExecuteNonQuery()
                 Me.DialogResult = DialogResult.OK
             End If
